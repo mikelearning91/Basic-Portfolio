@@ -71,12 +71,12 @@ img {
 }
 
 .header-inner {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
 .main-content {
-	width:960px;
+	max-width:960px;
 	height: 500px;
 	margin: 0 auto;
 	margin-bottom:80px;
@@ -97,21 +97,21 @@ img {
 	margin-bottom: 20px;
 }
 
-.about-me {
-	width: 618px;
+.page-content {
+	width: 620px;
 	float: left;
-	padding: 20px 10px;
+	padding: 20px 15px;
 	margin-right:10px;
 	background: #fff;
 	border: 1px solid #dddddd;
 }
 
 .sidebar {
-	float: left;
-	padding: 20px 10px;
-	margin-left: 10px;
-	background: #fff;
-	border: 1px solid #dddddd;
+	max-width: 251px;
+    float: left;
+    padding: 20px 10px;
+    background: #fff;
+    border: 1px solid #dddddd;
 }
 
 .footer {
@@ -126,3 +126,29 @@ img {
 	color: white;
 }
 
+#profile-picture {
+	margin: 0 10px 10px 0;
+}
+
+input {
+	width: 100%;
+    height: 20px;
+    margin: 10px 0 20px;
+}
+
+textarea {
+	width: 100%;
+    margin: 10px 0;
+}
+
+#submit_button {
+	font-size:100%;
+    padding: 20px 30px;
+    background: #4aaaa5;
+    width: initial;
+    margin: initial;
+    line-height: 10%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
