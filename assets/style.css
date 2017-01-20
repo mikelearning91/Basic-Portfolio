@@ -38,10 +38,14 @@ h3 {
     margin-bottom:10px;
 }
 
+p {
+	line-height: 1.1em;
+}
+
 nav {
 	float: right;
 	line-height: 90px;
-	margin-right: 80px;
+	margin-right: 60px;
 }
 
 nav ul li {
@@ -58,16 +62,23 @@ a:hover {
 	color: gray;
 }
 
-img {
-	float: left;
+input {
+	width: 100%;
+    height: 20px;
+    margin: 10px 0;
 }
 
-#main-nav > ul > li:nth-child(2) {
+textarea {
+	width: 100%;
+    margin: 10px 0;
+}
+
+#main-nav > ul > li + li {
 	border-left: 1px solid #ccc;
 }
 
-#main-nav > ul > li:nth-child(3) {
-	border-left: 1px solid #ccc;
+#main-nav > ul > li > a {
+	text-decoration: none;
 }
 
 .header-inner {
@@ -98,7 +109,7 @@ img {
 }
 
 .page-content {
-	width: 620px;
+	width: 618px;
 	float: left;
 	padding: 20px 15px;
 	margin-right:10px;
@@ -107,7 +118,7 @@ img {
 }
 
 .sidebar {
-	max-width: 251px;
+	width: 248px;
     float: left;
     padding: 20px 10px;
     background: #fff;
@@ -128,17 +139,7 @@ img {
 
 #profile-picture {
 	margin: 0 10px 10px 0;
-}
-
-input {
-	width: 100%;
-    height: 20px;
-    margin: 10px 0 20px;
-}
-
-textarea {
-	width: 100%;
-    margin: 10px 0;
+	float:left;
 }
 
 #submit_button {
@@ -151,4 +152,9 @@ textarea {
     border: none;
     color: #fff;
     cursor: pointer;
+}
+
+.flex {
+	display: inline-flex;
+	float: none;
 }
